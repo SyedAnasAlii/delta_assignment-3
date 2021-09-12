@@ -7,10 +7,10 @@
 .header {
     background-color: #4741ff;
     height: 40px;
-    ;
 }
 
 .sm_icons {
+    padding-block: 10;
     display: inline-block;
     float: left;
     text-align: center;
@@ -18,9 +18,9 @@
     margin-left: 100px;
 }
 
-.msg {
-    display: inline-block;
-    padding-left: 140px;
+.donors {
+    tab-size: 8;
+    display:inline-block;
     margin-top: 7px;
     text-align: center;
     color: white;
@@ -31,7 +31,7 @@
     display: inline-block;
     float: right;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 5%;
 }
 
 .whatsapp {
@@ -43,9 +43,11 @@ i {
     font-size: 20px;
     padding-right: 5px;
 }
-
+#homee{
+    color: white;
+}
 .choices {
-    display: inline;
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -74,12 +76,18 @@ i {
     margin-left: 100px;
     margin-top: 5px;
     margin-bottom: 10px;
-    margin-right: 250px;
+    margin-right: auto;
+}
+.nav{
+    background-color: white;
+    width: 100%;
+    z-index:100
 }
 
 .nav-bar {
     float: right;
     margin-top: 10px;
+    margin-right: 5%;
 }
 
 .banner {
@@ -182,24 +190,21 @@ i {
     padding: 50px;
     background-color: white;
     box-shadow: 5px 5px 10px rgb(165, 161, 161);
-    margin: 50px 20px 50px 150px;
-}
+    margin: 1%;}
 
 .cards_2 {
     flex: 1;
     padding: 50px;
     background-color: white;
     box-shadow: 5px 5px 10px rgb(165, 161, 161);
-    margin: 50px 20px 50px 20px;
-}
+    margin: 1%;}
 
 .cards_3 {
     flex: 1;
     padding: 50px;
     background-color: white;
     box-shadow: 5px 5px 10px rgb(165, 161, 161);
-    margin: 50px 150px 50px 20px;
-}
+    margin: 1%;}
 
 .cards-2 {
     display: flex;
@@ -214,23 +219,21 @@ i {
     padding: 50px;
     background-color: white;
     box-shadow: 5px 5px 10px rgb(165, 161, 161);
-    margin: 0px 20px 50px 150px;
-}
+    margin: 1%;}
 
 .cards-2_2 {
     flex: 1;
     padding: 50px;
     background-color: white;
     box-shadow: 5px 5px 10px rgb(165, 161, 161);
-    margin: 0px 20px 50px 20px;
-}
+    margin: 1%;}
 
 .cards-2_3 {
     flex: 1;
     padding: 50px;
     background-color: white;
     box-shadow: 5px 5px 10px rgb(165, 161, 161);
-    margin: 0px 150px 50px 20px;
+    margin: 1%;
 }
 
 .cards-3 {
@@ -241,9 +244,9 @@ i {
     align-items: center;
 }
 
-h4 {
-    color: #4741ff;
+.pro {
     font-weight: 600;
+    color: #4741ff;
 }
 
 .MAUP {
@@ -290,7 +293,7 @@ h4 {
     margin-bottom: 2%;
 }
 
-.project-list img, .project-list h4 {
+.project-list img, .project-list h5 {
     float: left;
     line-height: 80px;
 }
